@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Salesforce Application Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporter"/>
+  </listeners>
+  <test name="SFDC Tests(failed)">
+    <classes>
+      <class name="com.sfdc.qa.tests.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.sfdc.qa.tests.LoginTest -->
+      <class name="com.sfdc.qa.tests.AccountsTest">
+        <methods>
+          <include name="testBaseline"/>
+          <include name="createNewAccounts"/>
+          <include name="clickOnAllAccounts"/>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sfdc.qa.tests.AccountsTest -->
+    </classes>
+  </test> <!-- SFDC Tests(failed) -->
+</suite> <!-- Failed suite [Salesforce Application Test Automation Suite] -->

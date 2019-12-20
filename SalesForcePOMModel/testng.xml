@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Salesforce Application Test Automation Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporter"></listener>
+	</listeners>
+
+	<test name="SFDC Tests">
+		<classes>
+			<class name="com.sfdc.qa.tests.FirstScriptToExecute"></class>
+			<class name="com.sfdc.qa.tests.LoginTest"></class>
+			<class name="com.sfdc.qa.tests.AccountsTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">SFDC Tests</td><td class="numi">10</td><td class="numi">7</td><td class="numi_attn">6</td><td class="numi">0</td><td class="numi">135.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">SFDC Tests &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="5">com.sfdc.qa.tests.AccountsTest</td><td><a href="#m1"><b>testBaseline</b>  </a></td><td class="numi">1</td><td>1566816749135</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>testBaseline</b>  </a></td><td class="numi">1</td><td>1566816749135</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m3"><b>testBaseline</b>  </a></td><td class="numi">1</td><td>1566816749135</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m4"><b>testBaseline</b>  </a></td><td class="numi">1</td><td>1566816749135</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m5"><b>testBaseline</b>  </a></td><td class="numi">1</td><td>1566816749135</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SFDC Tests &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="6">com.sfdc.qa.tests.AccountsTest</td><td><a href="#m6"><b>testBaseline</b>  </a></td><td class="numi">2</td><td>1566816749866</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m7"><b>testBaseline</b>  </a></td><td class="numi">2</td><td>1566816749866</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m8"><b>testBaseline</b>  </a></td><td class="numi">2</td><td>1566816749866</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m9"><b>testBaseline</b>  </a></td><td class="numi">2</td><td>1566816749866</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m10"><b>testBaseline</b>  </a></td><td class="numi">2</td><td>1566816749866</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m11"><b>teardown</b>  </a></td><td class="numi">1</td><td>1566816749871</td><td class="numi">0</td></tr>
+<tr><th colspan="4">SFDC Tests &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="6">com.sfdc.qa.tests.AccountsTest</td><td><a href="#m12"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816749864</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m13"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816749864</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m14"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816749864</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m15"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816749864</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m16"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816749864</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m17"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816749864</td><td class="numi">6</td></tr>
+<tr><th colspan="4">SFDC Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">com.sfdc.qa.tests.LoginTest</td><td><a href="#m18"><b>loginPageTitleValidation</b>  </a></td><td class="numi">1</td><td>1566816635926</td><td class="numi">11</td></tr><tr class="passedodd"><td><a href="#m19"><b>loginToSFDC</b>  </a></td><td class="numi">1</td><td>1566816635938</td><td class="numi">30103</td></tr><tr class="passedodd"><td><a href="#m20"><b>tabValidation</b>  </a></td><td class="numi">1</td><td>1566816666045</td><td class="numi">2726</td></tr>
+<tr class="passedeven"><td rowspan="7">com.sfdc.qa.tests.AccountsTest</td><td><a href="#m21"><b>clickOnAllAccounts</b>  </a></td><td class="numi">1</td><td>1566816702564</td><td class="numi">1826</td></tr><tr class="passedeven"><td><a href="#m22"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816706411</td><td class="numi">42723</td></tr><tr class="passedeven"><td><a href="#m23"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816706411</td><td class="numi">42723</td></tr><tr class="passedeven"><td><a href="#m24"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816706411</td><td class="numi">42723</td></tr><tr class="passedeven"><td><a href="#m25"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816706411</td><td class="numi">42723</td></tr><tr class="passedeven"><td><a href="#m26"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816706411</td><td class="numi">42723</td></tr><tr class="passedeven"><td><a href="#m27"><b>createNewAccounts</b>  </a></td><td class="numi">3</td><td>1566816706411</td><td class="numi">42723</td></tr>
+</table>
+<h1>SFDC Tests</h1>
+<h2 id="m1">com.sfdc.qa.tests.AccountsTest:testBaseline</h2>
+<div style="padding-left:3em">
+<p>element click intercepted: Element &lt;one-app-nav-bar-item-root one-appnavbar_appnavbar=&quot;&quot; data-id=&quot;home&quot; data-assistive-id=&quot;operationId&quot; aria-hidden=&quot;false&quot; draggable=&quot;true&quot; class=&quot;navItem slds-context-bar__item slds-shrink-none&quot; role=&quot;listitem&quot;&gt;&lt;/one-app-nav-bar-item-root&gt; is not clickable at point (164, 162). Other element would receive the click: &lt;div class=&quot;panel slds-modal transitioning movetocenter&quot; aria-labelledby=&quot;title_11452:0&quot; aria-describedby=&quot;content_11452:0&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; data-aura-rendered-by=&quot;11467:0&quot; style=&quot;opacity: 0;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=76.0.3809.100)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-3785COIL&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\dhanr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb80bbad0658ad4529e3a3cd8a928bde</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+<br/>at com.sun.proxy.$Proxy16.click(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+<br/>at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy15.click(Unknown Source)
+<br/>at com.sfdc.qa.pages.HomePage.clickOnHomeTab(HomePage.java:81)
+<br/>at com.sfdc.qa.tests.AccountsTest.testBaseline(AccountsTest.java:56)
+<br/>27 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.sfdc.qa.tests.AccountsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.sfdc.qa.tests.AccountsTest:testBaseline</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.sfdc.qa.tests.AccountsTest:testBaseline</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.sfdc.qa.tests.AccountsTest:createNewAccounts</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>AutoAug-05</td>
+<td>9.611388007E9</td>
+<td>Competitor</td>
+<td>5000.0</td>
+<td>Not For Profit</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.sfdc.qa.tests.AccountsTest:createNewAccounts</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>AutoAug-06</td>
+<td>9.611388008E9</td>
+<td>Competitor</td>
+<td>5000.0</td>
+<td>Not For Profit</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.sfdc.qa.tests.AccountsTest:createNewAccounts</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>AutoAug-04</td>
+<td>9.611388006E9</td>
+<td>Fucker</td>
+<td>4000.0</td>
+<td>Recreation</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.sfdc.qa.tests.LoginTest:tabValidation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.sfdc.qa.tests.LoginTest:loginToSFDC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.sfdc.qa.tests.AccountsTest:clickOnAllAccounts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.sfdc.qa.tests.AccountsTest:createNewAccounts</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>AutoAug-01</td>
+<td>9.611388003E9</td>
+<td>Other</td>
+<td>1000.0</td>
+<td>Construction</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.sfdc.qa.tests.AccountsTest:createNewAccounts</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>AutoAug-03</td>
+<td>9.611388005E9</td>
+<td>Customer</td>
+<td>3000.0</td>
+<td>Finance</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.sfdc.qa.tests.LoginTest:loginPageTitleValidation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.sfdc.qa.tests.AccountsTest:createNewAccounts</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>AutoAug-02</td>
+<td>9.611388004E9</td>
+<td>Analyst</td>
+<td>2000.0</td>
+<td>Communications</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

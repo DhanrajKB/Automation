@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="10" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Salesforce Application Test Automation Suite" duration-ms="135134" started-at="2019-08-26T10:50:14Z" finished-at="2019-08-26T10:52:29Z">
+    <groups>
+    </groups>
+    <test name="SFDC Tests" duration-ms="135134" started-at="2019-08-26T10:50:14Z" finished-at="2019-08-26T10:52:29Z">
+      <class name="com.sfdc.qa.tests.AccountsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="beforeTest" is-config="true" duration-ms="51" started-at="2019-08-26T16:20:14Z" finished-at="2019-08-26T16:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sfdc.qa.tests.LoginTest@1bce4f0a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-08-26T16:20:14Z" finished-at="2019-08-26T16:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="setup" is-config="true" duration-ms="29143" started-at="2019-08-26T16:21:11Z" finished-at="2019-08-26T16:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="1470" started-at="2019-08-26T16:21:41Z" finished-at="2019-08-26T16:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="PASS" signature="clickOnAllAccounts()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="clickOnAllAccounts" duration-ms="1826" started-at="2019-08-26T16:21:42Z" finished-at="2019-08-26T16:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAllAccounts -->
+        <test-method status="PASS" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="1129" started-at="2019-08-26T16:21:45Z" finished-at="2019-08-26T16:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="PASS" signature="createNewAccounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="createNewAccounts" duration-ms="13434" started-at="2019-08-26T16:21:46Z" data-provider="getNewAccountData" depends-on-methods="com.sfdc.qa.tests.AccountsTest.clickOnAllAccounts" finished-at="2019-08-26T16:21:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAug-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.611388003E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Construction]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccounts -->
+        <test-method status="PASS" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="1616" started-at="2019-08-26T16:21:59Z" finished-at="2019-08-26T16:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="PASS" signature="createNewAccounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="createNewAccounts" duration-ms="13547" started-at="2019-08-26T16:22:01Z" data-provider="getNewAccountData" depends-on-methods="com.sfdc.qa.tests.AccountsTest.clickOnAllAccounts" finished-at="2019-08-26T16:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAug-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.611388004E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Analyst]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Communications]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccounts -->
+        <test-method status="PASS" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="816" started-at="2019-08-26T16:22:15Z" finished-at="2019-08-26T16:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="PASS" signature="createNewAccounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="createNewAccounts" duration-ms="13304" started-at="2019-08-26T16:22:15Z" data-provider="getNewAccountData" depends-on-methods="com.sfdc.qa.tests.AccountsTest.clickOnAllAccounts" finished-at="2019-08-26T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAug-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.611388005E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Finance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccounts -->
+        <test-method status="FAIL" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="0" started-at="2019-08-26T16:22:29Z" finished-at="2019-08-26T16:22:29Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <one-app-nav-bar-item-root one-appnavbar_appnavbar="" data-id="home" data-assistive-id="operationId" aria-hidden="false" draggable="true" class="navItem slds-context-bar__item slds-shrink-none" role="listitem"></one-app-nav-bar-item-root> is not clickable at point (164, 162). Other element would receive the click: <div class="panel slds-modal transitioning movetocenter" aria-labelledby="title_11452:0" aria-describedby="content_11452:0" tabindex="-1" role="dialog" aria-modal="true" data-aura-rendered-by="11467:0" style="opacity: 0;">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3785COIL', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\dhanr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb80bbad0658ad4529e3a3cd8a928bde]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <one-app-nav-bar-item-root one-appnavbar_appnavbar="" data-id="home" data-assistive-id="operationId" aria-hidden="false" draggable="true" class="navItem slds-context-bar__item slds-shrink-none" role="listitem"></one-app-nav-bar-item-root> is not clickable at point (164, 162). Other element would receive the click: <div class="panel slds-modal transitioning movetocenter" aria-labelledby="title_11452:0" aria-describedby="content_11452:0" tabindex="-1" role="dialog" aria-modal="true" data-aura-rendered-by="11467:0" style="opacity: 0;">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3785COIL', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\dhanr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb80bbad0658ad4529e3a3cd8a928bde
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.sfdc.qa.pages.HomePage.clickOnHomeTab(HomePage.java:81)
+	at com.sfdc.qa.tests.AccountsTest.testBaseline(AccountsTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="SKIP" signature="createNewAccounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="createNewAccounts" duration-ms="1" started-at="2019-08-26T16:22:29Z" data-provider="getNewAccountData" depends-on-methods="com.sfdc.qa.tests.AccountsTest.clickOnAllAccounts" finished-at="2019-08-26T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAug-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.611388006E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fucker]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Recreation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccounts -->
+        <test-method status="SKIP" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="0" started-at="2019-08-26T16:22:29Z" finished-at="2019-08-26T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="SKIP" signature="createNewAccounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="createNewAccounts" duration-ms="1" started-at="2019-08-26T16:22:29Z" data-provider="getNewAccountData" depends-on-methods="com.sfdc.qa.tests.AccountsTest.clickOnAllAccounts" finished-at="2019-08-26T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAug-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.611388007E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Competitor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Not For Profit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccounts -->
+        <test-method status="SKIP" signature="testBaseline()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="testBaseline" is-config="true" duration-ms="0" started-at="2019-08-26T16:22:29Z" finished-at="2019-08-26T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseline -->
+        <test-method status="SKIP" signature="createNewAccounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="createNewAccounts" duration-ms="1" started-at="2019-08-26T16:22:29Z" data-provider="getNewAccountData" depends-on-methods="com.sfdc.qa.tests.AccountsTest.clickOnAllAccounts" finished-at="2019-08-26T16:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAug-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.611388008E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Competitor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Not For Profit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccounts -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.sfdc.qa.tests.AccountsTest@39c0f4a]" name="teardown" is-config="true" duration-ms="0" started-at="2019-08-26T16:22:29Z" finished-at="2019-08-26T16:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sfdc.qa.tests.AccountsTest -->
+      <class name="com.sfdc.qa.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sfdc.qa.tests.LoginTest@1bce4f0a]" name="setup" is-config="true" duration-ms="21116" started-at="2019-08-26T16:20:14Z" finished-at="2019-08-26T16:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleValidation()[pri:0, instance:com.sfdc.qa.tests.LoginTest@1bce4f0a]" name="loginPageTitleValidation" duration-ms="11" started-at="2019-08-26T16:20:35Z" finished-at="2019-08-26T16:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleValidation -->
+        <test-method status="PASS" signature="loginToSFDC()[pri:0, instance:com.sfdc.qa.tests.LoginTest@1bce4f0a]" name="loginToSFDC" duration-ms="30103" started-at="2019-08-26T16:20:35Z" finished-at="2019-08-26T16:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToSFDC -->
+        <test-method status="PASS" signature="tabValidation()[pri:0, instance:com.sfdc.qa.tests.LoginTest@1bce4f0a]" name="tabValidation" duration-ms="2726" started-at="2019-08-26T16:21:06Z" depends-on-methods="com.sfdc.qa.tests.LoginTest.loginToSFDC" finished-at="2019-08-26T16:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sfdc.qa.tests.LoginTest@1bce4f0a]" name="teardown" is-config="true" duration-ms="3173" started-at="2019-08-26T16:21:08Z" finished-at="2019-08-26T16:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sfdc.qa.tests.LoginTest -->
+    </test> <!-- SFDC Tests -->
+  </suite> <!-- Salesforce Application Test Automation Suite -->
+</testng-results>

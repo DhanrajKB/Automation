@@ -1,0 +1,2 @@
+2019-12-20 17:18:55,625 DEBUG [main] ConfigurationUtils:447 - ConfigurationUtils.locate(): base is null, name is C:\Automation\Git_Backup_missedFiles\SalesForcePOMModel\src\main\java\com\sfdc\qa\config\config.properties
+2019-12-20 17:18:55,653 DEBUG [main] ConfigurationUtils:501 - Loading configuration from the absolute path C:\Automation\Git_Backup_missedFiles\SalesForcePOMModel\src\main\java\com\sfdc\qa\config\config.properties

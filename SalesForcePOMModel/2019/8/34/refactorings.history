@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WebEventListener.java&apos; to &apos;SalesForcePOMModel/src/main/java/com.sfdc.qa.utils&apos;&#x0D;&#x0A;- Original project: &apos;SFDCProj&apos;&#x0D;&#x0A;- Destination element: &apos;SalesForcePOMModel/src/main/java/com.sfdc.qa.utils&apos;&#x0D;&#x0A;- Original element: &apos;com.sfdc.qa.utils.WebEventListener.java&apos;" description="Copy compilation unit" destination="=SalesForcePOMModel/src\/main\/java&lt;com.sfdc.qa.utils" element1="/src\/main\/java&lt;com.sfdc.qa.utils{WebEventListener.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1566297977532" units="1" version="1.0"/>
+</session>
