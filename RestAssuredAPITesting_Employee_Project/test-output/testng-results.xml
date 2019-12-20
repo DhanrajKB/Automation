@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeesRestAPISuite" duration-ms="38224" started-at="2019-12-19T18:49:26Z" finished-at="2019-12-19T18:50:04Z">
+    <groups>
+    </groups>
+    <test name="EmployeesRestAPITest" duration-ms="38224" started-at="2019-12-19T18:49:26Z" finished-at="2019-12-19T18:50:04Z">
+      <class name="com.qa.testcases.TC005_DeleteEmployeeRecord">
+        <test-method status="PASS" signature="deleteRecord()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="deleteRecord" duration-ms="10112" started-at="2019-12-19T18:49:51Z" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRecord -->
+        <test-method status="PASS" signature="validateContentType()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="validateContentType" duration-ms="1" started-at="2019-12-19T18:50:01Z" depends-on-methods="com.qa.testcases.TC005_DeleteEmployeeRecord.deleteRecord" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContentType -->
+        <test-method status="PASS" signature="validateResponseBody()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="validateResponseBody" duration-ms="2" started-at="2019-12-19T18:50:01Z" depends-on-methods="com.qa.testcases.TC005_DeleteEmployeeRecord.deleteRecord" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBody -->
+        <test-method status="PASS" signature="validateServerType()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="validateServerType" duration-ms="1" started-at="2019-12-19T18:50:01Z" depends-on-methods="com.qa.testcases.TC005_DeleteEmployeeRecord.deleteRecord" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateServerType -->
+        <test-method status="PASS" signature="validateStatusLineAndStatusCode()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="validateStatusLineAndStatusCode" duration-ms="1" started-at="2019-12-19T18:50:01Z" depends-on-methods="com.qa.testcases.TC005_DeleteEmployeeRecord.deleteRecord" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusLineAndStatusCode -->
+      </class> <!-- com.qa.testcases.TC005_DeleteEmployeeRecord -->
+      <class name="com.qa.testcases.TC003_PostEmployeeRecord">
+        <test-method status="PASS" signature="postRequest()[pri:0, instance:com.qa.testcases.TC003_PostEmployeeRecord@3108bc]" name="postRequest" duration-ms="6968" started-at="2019-12-19T18:49:37Z" finished-at="2019-12-19T18:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="validateResponse()[pri:0, instance:com.qa.testcases.TC003_PostEmployeeRecord@3108bc]" name="validateResponse" duration-ms="38" started-at="2019-12-19T18:49:44Z" depends-on-methods="com.qa.testcases.TC003_PostEmployeeRecord.postRequest" finished-at="2019-12-19T18:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponse -->
+      </class> <!-- com.qa.testcases.TC003_PostEmployeeRecord -->
+      <class name="com.qa.testcases.TC002_GetSingleEmployeeData">
+        <test-method status="PASS" signature="getResponse()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="getResponse" duration-ms="1283" started-at="2019-12-19T18:49:36Z" finished-at="2019-12-19T18:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponse -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="checkContentLength" duration-ms="9" started-at="2019-12-19T18:49:37Z" depends-on-methods="com.qa.testcases.TC002_GetSingleEmployeeData.getResponse" finished-at="2019-12-19T18:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="checkContentType" duration-ms="4" started-at="2019-12-19T18:49:37Z" depends-on-methods="com.qa.testcases.TC002_GetSingleEmployeeData.getResponse" finished-at="2019-12-19T18:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponse()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="checkResponse" duration-ms="15" started-at="2019-12-19T18:49:37Z" depends-on-methods="com.qa.testcases.TC002_GetSingleEmployeeData.getResponse" finished-at="2019-12-19T18:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponse -->
+        <test-method status="PASS" signature="checkStatusCode_StatusLine()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="checkStatusCode_StatusLine" duration-ms="2" started-at="2019-12-19T18:49:37Z" depends-on-methods="com.qa.testcases.TC002_GetSingleEmployeeData.getResponse" finished-at="2019-12-19T18:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_StatusLine -->
+      </class> <!-- com.qa.testcases.TC002_GetSingleEmployeeData -->
+      <class name="com.qa.testcases.TC004_PutEmployeeData">
+        <test-method status="PASS" signature="putRequest()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="putRequest" duration-ms="7009" started-at="2019-12-19T18:49:44Z" finished-at="2019-12-19T18:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+        <test-method status="PASS" signature="validateContentType()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="validateContentType" duration-ms="9" started-at="2019-12-19T18:49:51Z" depends-on-methods="com.qa.testcases.TC004_PutEmployeeData.putRequest" finished-at="2019-12-19T18:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContentType -->
+        <test-method status="PASS" signature="validateResponseBody()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="validateResponseBody" duration-ms="38" started-at="2019-12-19T18:49:51Z" depends-on-methods="com.qa.testcases.TC004_PutEmployeeData.putRequest" finished-at="2019-12-19T18:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBody -->
+        <test-method status="PASS" signature="validateServerType()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="validateServerType" duration-ms="2" started-at="2019-12-19T18:49:51Z" depends-on-methods="com.qa.testcases.TC004_PutEmployeeData.putRequest" finished-at="2019-12-19T18:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateServerType -->
+        <test-method status="PASS" signature="validateStatusLineAndStatusCode()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="validateStatusLineAndStatusCode" duration-ms="2" started-at="2019-12-19T18:49:51Z" depends-on-methods="com.qa.testcases.TC004_PutEmployeeData.putRequest" finished-at="2019-12-19T18:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusLineAndStatusCode -->
+      </class> <!-- com.qa.testcases.TC004_PutEmployeeData -->
+      <class name="com.qa.testcases.TC001_GetAllEmployees">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="setup" is-config="true" duration-ms="9002" started-at="2019-12-19T18:49:26Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="setup" is-config="true" duration-ms="2" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.TC003_PostEmployeeRecord@3108bc]" name="setup" is-config="true" duration-ms="3" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="setup" is-config="true" duration-ms="2" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="setup" is-config="true" duration-ms="1" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="checkContentType" duration-ms="7" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="checkResponseTime" duration-ms="2" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="checkServer" duration-ms="2" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusLine_StatusCode()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="checkStatusLine_StatusCode" duration-ms="3" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine_StatusCode -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="getResponseBody" duration-ms="629" started-at="2019-12-19T18:49:35Z" finished-at="2019-12-19T18:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.TC001_GetAllEmployees@527740a2]" name="teardown" is-config="true" duration-ms="2" started-at="2019-12-19T18:50:01Z" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.TC002_GetSingleEmployeeData@13a5fe33]" name="teardown" is-config="true" duration-ms="0" started-at="2019-12-19T18:50:01Z" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.TC003_PostEmployeeRecord@3108bc]" name="teardown" is-config="true" duration-ms="2" started-at="2019-12-19T18:50:01Z" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.TC004_PutEmployeeData@370736d9]" name="teardown" is-config="true" duration-ms="0" started-at="2019-12-19T18:50:01Z" finished-at="2019-12-19T18:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.TC005_DeleteEmployeeRecord@5f9d02cb]" name="teardown" is-config="true" duration-ms="2978" started-at="2019-12-19T18:50:01Z" finished-at="2019-12-19T18:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.TC001_GetAllEmployees -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>

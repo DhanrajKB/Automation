@@ -1,0 +1,487 @@
+2019-12-20 14:33:56,154  INFO [main] RestAPITestinForEmployeeDB:41 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-20 14:33:57,695 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2019-12-20 14:33:57,736 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2019-12-20 14:33:57,894 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-12-20 14:33:57,896 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-12-20 14:33:57,897 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-12-20 14:33:57,898 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-12-20 14:33:57,922 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2019-12-20 14:33:57,923 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2019-12-20 14:33:57,971 DEBUG [main] wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2019-12-20 14:33:57,973 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2019-12-20 14:33:57,973 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2019-12-20 14:33:57,974 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-12-20 14:33:57,974 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2019-12-20 14:33:57,974 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-12-20 14:33:57,975 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2019-12-20 14:33:57,976 DEBUG [main] headers:278 - >> GET /api/v1/employees HTTP/1.1
+2019-12-20 14:33:57,976 DEBUG [main] headers:281 - >> Accept: */*
+2019-12-20 14:33:57,977 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2019-12-20 14:33:57,978 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2019-12-20 14:33:57,978 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2019-12-20 14:33:57,979 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2019-12-20 14:33:59,129 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-12-20 14:33:59,132 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-12-20 14:33:59,133 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-12-20 14:33:59,134 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2019-12-20 14:33:59,134 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2019-12-20 14:33:59,135 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2019-12-20 14:33:59,135 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2019-12-20 14:33:59,136 DEBUG [main] wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2019-12-20 14:33:59,136 DEBUG [main] wire:73 -  << "Date: Fri, 20 Dec 2019 09:03:58 GMT[\r][\n]"
+2019-12-20 14:33:59,137 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2019-12-20 14:33:59,138 DEBUG [main] wire:73 -  << "Pagespeed: off[\r][\n]"
+2019-12-20 14:33:59,139 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2019-12-20 14:33:59,139 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2019-12-20 14:33:59,140 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2019-12-20 14:33:59,141 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2019-12-20 14:33:59,141 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=683d018697b2124e419125d2955c8345; path=/[\r][\n]"
+2019-12-20 14:33:59,142 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:33:58 UTC[\r][\n]"
+2019-12-20 14:33:59,143 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:03:58 UTC[\r][\n]"
+2019-12-20 14:33:59,144 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod88-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:03:58 UTC[\r][\n]"
+2019-12-20 14:33:59,145 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1576832638; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:03:58 UTC[\r][\n]"
+2019-12-20 14:33:59,146 DEBUG [main] wire:73 -  << "Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:03:59 GMT[\r][\n]"
+2019-12-20 14:33:59,147 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,X-APP-JSON[\r][\n]"
+2019-12-20 14:33:59,147 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2019-12-20 14:33:59,148 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2019-12-20 14:33:59,148 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2019-12-20 14:33:59,149 DEBUG [main] wire:73 -  << "X-Shard: 100224107[\r][\n]"
+2019-12-20 14:33:59,149 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2019-12-20 14:33:59,150 DEBUG [main] wire:73 -  << "X-Varnish: 744923083[\r][\n]"
+2019-12-20 14:33:59,150 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2019-12-20 14:33:59,151 DEBUG [main] wire:73 -  << "Content-Length: 331[\r][\n]"
+2019-12-20 14:33:59,151 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-12-20 14:33:59,153 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-12-20 14:33:59,153 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2019-12-20 14:33:59,154 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2019-12-20 14:33:59,154 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2019-12-20 14:33:59,154 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2019-12-20 14:33:59,155 DEBUG [main] headers:265 - << Age: 0
+2019-12-20 14:33:59,155 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2019-12-20 14:33:59,156 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2019-12-20 14:33:59,157 DEBUG [main] headers:265 - << Content-Type: text/html; charset=UTF-8
+2019-12-20 14:33:59,157 DEBUG [main] headers:265 - << Date: Fri, 20 Dec 2019 09:03:58 GMT
+2019-12-20 14:33:59,158 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2019-12-20 14:33:59,158 DEBUG [main] headers:265 - << Pagespeed: off
+2019-12-20 14:33:59,158 DEBUG [main] headers:265 - << Pragma: no-cache
+2019-12-20 14:33:59,159 DEBUG [main] headers:265 - << Referrer-Policy: 
+2019-12-20 14:33:59,159 DEBUG [main] headers:265 - << Response: 200
+2019-12-20 14:33:59,160 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2019-12-20 14:33:59,160 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=683d018697b2124e419125d2955c8345; path=/
+2019-12-20 14:33:59,161 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:33:58 UTC
+2019-12-20 14:33:59,161 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:03:58 UTC
+2019-12-20 14:33:59,162 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod88-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:03:58 UTC
+2019-12-20 14:33:59,162 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1576832638; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:03:58 UTC
+2019-12-20 14:33:59,162 DEBUG [main] headers:265 - << Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:03:59 GMT
+2019-12-20 14:33:59,163 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,X-APP-JSON
+2019-12-20 14:33:59,164 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2019-12-20 14:33:59,164 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2019-12-20 14:33:59,164 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2019-12-20 14:33:59,165 DEBUG [main] headers:265 - << X-Shard: 100224107
+2019-12-20 14:33:59,170 DEBUG [main] headers:265 - << X-Sol: pub_site
+2019-12-20 14:33:59,170 DEBUG [main] headers:265 - << X-Varnish: 744923083
+2019-12-20 14:33:59,171 DEBUG [main] headers:265 - << X-Vcache: Miss
+2019-12-20 14:33:59,171 DEBUG [main] headers:265 - << Content-Length: 331
+2019-12-20 14:33:59,178 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-12-20 14:33:59,193 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html; charset=UTF-8
+2019-12-20 14:33:59,194 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xac][0xd4][0xc1]O[0xc2]0[0x14][0x6][0xf0][0x85][0xf4][0xc]I[0xbb][0xad][0xb0]q[0xd3][0xc8][0xc1][0x10]/[0x8a][0x7]c[0xc]y[0x83][\n]"
+2019-12-20 14:33:59,194 DEBUG [main] wire:73 -  << "[0x83][0x95][0x92][0xae]`[0x8a][0xf1]7(&F[0xbe]Z[0x8c]\[0xdf][0xb2][0xfc][0xf2][0xf5][0xf5][0xeb][0xe3]+[0xab][0xa6][0xac][0xcf][0x4]k3[0xa5][0xd7][0xb5][0xf1]J[0x8d]W[0xa4][0x15][0xeb][0xb3]F[0xd5][[0xb2][0xb4][0xf8][0xfe][0xa9][0xa1][0x9a][0xac][0xff][0xf9][0x3][0xcd][0xd4]a[0xb4][0xb6][0xe6][0xb9][0xaa][0xd5][0xb8][0xd2][0x9f]3[0xf6][0xd6]>[0x8][0x89][0xc8]DV[0x0][0xc6][0xa9][0xc6]a"I[0x8f][0x91][0x8f][0xd9][0xef][0x8a][0xe4]@Y[0xea][0xce][0x1e][0xea][0xa4]g[0xa5]z[0xe8][0xdc]n[0xae][0x87][0x83][0xd1][0xe0]n[0x84][0xa5]T[0x0]J[0x9c]@[0xe5][0x80]Z[0x98][0xf9][\n]"
+2019-12-20 14:33:59,195 DEBUG [main] wire:73 -  << "2)[0xe7][0x9c][0x1f];2[0x8b];hGTN[0x9c][0xb7]X[0x93]8[0xe1][0xf0]r[0xb4]'*'[0xd6][0xf9]sKiX[0xf2]Nf[0x9b][0xae][0xac][0xce],J ^VKj[0xe6][0x18][0xe2]xa[0xa7]P]@=[0xd0][0xcc]S[0xab][0x9c][0x93]s[0x4]A[0x19][0xf0][0xe2]%[0xce]{[0xc0][0xbb]XU[0x81]d2[0x94],.[0x15][0xe8][0x82]\[0xa9]m[0x88][\n]"
+2019-12-20 14:33:59,195 DEBUG [main] wire:87 -  << "[0x1d][0xa2]([0xe2][0x14]j[0xd7]Ti[0xb3]4[0xbe][0xe6][0x18][0x95]8^[0x1e]7Q[0xd3]f[0xae][0x84]L[0xd1]=6[0x8a]"[0x1a],[0xe1][0x9]@[0xee]w;[0xaa][[0xc3][0x8d]&[0xdb][0xba]5[0x1e][0xbf] [0x81]\[0xd1][0xb][0x99]p[0xd4]6[0xa3]^[0xec][0xff]+[0xf6][0xf4][0x1e][0x0][0x0][0xff][0xff][0x87][0xa4][0x9b][0xb][0xb0][0x6][0x0][0x0]"
+2019-12-20 14:33:59,196 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-12-20 14:34:05,251  INFO [main] RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-20 14:34:05,259  INFO [main] RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-20 14:34:05,289  INFO [main] RestAPITestinForEmployeeDB:85 - ------------ checking content type the header -----------
+2019-12-20 14:34:05,290  INFO [main] RestAPITestinForEmployeeDB:87 - Content Type :-->> text/html; charset=UTF-8
+2019-12-20 14:34:05,308  INFO [main] RestAPITestinForEmployeeDB:74 - ------------ Checking response time of the request------------
+2019-12-20 14:34:05,309  INFO [main] RestAPITestinForEmployeeDB:79 - Response time :---> 2349
+2019-12-20 14:34:05,310  INFO [main] RestAPITestinForEmployeeDB:93 - ----------- checking server type of the header ----------
+2019-12-20 14:34:05,310  INFO [main] RestAPITestinForEmployeeDB:95 - Server type :--->>> nginx/1.16.0
+2019-12-20 14:34:05,312  INFO [main] RestAPITestinForEmployeeDB:62 - ------------ checking status line and status code --------------
+2019-12-20 14:34:05,312  INFO [main] RestAPITestinForEmployeeDB:67 - Status Code :---> 200
+2019-12-20 14:34:05,313  INFO [main] RestAPITestinForEmployeeDB:68 - Status Line :---> HTTP/1.1 200 OK
+2019-12-20 14:34:05,316  INFO [main] RestAPITestinForEmployeeDB:53 - ----------- Cheking response --------------
+2019-12-20 14:34:05,337 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6a62689d
+2019-12-20 14:34:05,337 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-12-20 14:34:05,724  INFO [main] RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-20 14:34:05,725  INFO [main] RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-20 14:34:05,739 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2019-12-20 14:34:05,740 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2019-12-20 14:34:05,782 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-12-20 14:34:05,783 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-12-20 14:34:05,783 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-12-20 14:34:05,784 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-12-20 14:34:05,784 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2019-12-20 14:34:05,784 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employee/214114 HTTP/1.1
+2019-12-20 14:34:05,785 DEBUG [main] wire:73 -  >> "GET /api/v1/employee/214114 HTTP/1.1[\r][\n]"
+2019-12-20 14:34:05,785 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2019-12-20 14:34:05,786 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2019-12-20 14:34:05,786 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-12-20 14:34:05,786 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2019-12-20 14:34:05,787 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-12-20 14:34:05,787 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2019-12-20 14:34:05,788 DEBUG [main] headers:278 - >> GET /api/v1/employee/214114 HTTP/1.1
+2019-12-20 14:34:05,788 DEBUG [main] headers:281 - >> Accept: */*
+2019-12-20 14:34:05,788 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2019-12-20 14:34:05,789 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2019-12-20 14:34:05,789 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2019-12-20 14:34:05,790 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2019-12-20 14:34:06,637 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-12-20 14:34:06,638 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-12-20 14:34:06,639 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-12-20 14:34:06,640 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2019-12-20 14:34:06,641 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2019-12-20 14:34:06,642 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2019-12-20 14:34:06,643 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2019-12-20 14:34:06,644 DEBUG [main] wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2019-12-20 14:34:06,645 DEBUG [main] wire:73 -  << "Date: Fri, 20 Dec 2019 09:04:06 GMT[\r][\n]"
+2019-12-20 14:34:06,645 DEBUG [main] wire:73 -  << "Display: pub_site_to_orig_sol[\r][\n]"
+2019-12-20 14:34:06,646 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2019-12-20 14:34:06,646 DEBUG [main] wire:73 -  << "Pagespeed: off[\r][\n]"
+2019-12-20 14:34:06,647 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2019-12-20 14:34:06,648 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2019-12-20 14:34:06,648 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2019-12-20 14:34:06,649 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2019-12-20 14:34:06,650 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=f2340fb8dbe557ec6f201292f67eaa45; path=/[\r][\n]"
+2019-12-20 14:34:06,650 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:05 UTC[\r][\n]"
+2019-12-20 14:34:06,651 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:05 UTC[\r][\n]"
+2019-12-20 14:34:06,651 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod36-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:05 UTC[\r][\n]"
+2019-12-20 14:34:06,652 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1576832645; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:05 UTC[\r][\n]"
+2019-12-20 14:34:06,653 DEBUG [main] wire:73 -  << "Set-Cookie: lp_133674=http://dummy.restapiexample.com/api/v1/employee/214114; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:06 UTC[\r][\n]"
+2019-12-20 14:34:06,653 DEBUG [main] wire:73 -  << "Set-Cookie: ezovuuidtime_133674=1576832646; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:06 UTC[\r][\n]"
+2019-12-20 14:34:06,654 DEBUG [main] wire:73 -  << "Set-Cookie: ezovuuid_133674=9cc57c00-aa8e-4386-4433-f07af10ea5de; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:06 UTC[\r][\n]"
+2019-12-20 14:34:06,655 DEBUG [main] wire:73 -  << "Set-Cookie: ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:06 UTC[\r][\n]"
+2019-12-20 14:34:06,655 DEBUG [main] wire:73 -  << "Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:04:06 GMT[\r][\n]"
+2019-12-20 14:34:06,656 DEBUG [main] wire:73 -  << "Vary: User-Agent,Accept-Encoding,X-APP-JSON[\r][\n]"
+2019-12-20 14:34:06,656 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2019-12-20 14:34:06,656 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2019-12-20 14:34:06,657 DEBUG [main] wire:73 -  << "X-Middleton-Display: pub_site_to_orig_sol[\r][\n]"
+2019-12-20 14:34:06,657 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2019-12-20 14:34:06,658 DEBUG [main] wire:73 -  << "X-Shard: 100224107[\r][\n]"
+2019-12-20 14:34:06,658 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2019-12-20 14:34:06,658 DEBUG [main] wire:73 -  << "X-Varnish: 740505524[\r][\n]"
+2019-12-20 14:34:06,658 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2019-12-20 14:34:06,659 DEBUG [main] wire:73 -  << "Content-Length: 1070[\r][\n]"
+2019-12-20 14:34:06,659 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-12-20 14:34:06,659 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-12-20 14:34:06,660 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2019-12-20 14:34:06,660 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2019-12-20 14:34:06,660 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2019-12-20 14:34:06,660 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2019-12-20 14:34:06,661 DEBUG [main] headers:265 - << Age: 0
+2019-12-20 14:34:06,661 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2019-12-20 14:34:06,661 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2019-12-20 14:34:06,662 DEBUG [main] headers:265 - << Content-Type: text/html; charset=UTF-8
+2019-12-20 14:34:06,662 DEBUG [main] headers:265 - << Date: Fri, 20 Dec 2019 09:04:06 GMT
+2019-12-20 14:34:06,662 DEBUG [main] headers:265 - << Display: pub_site_to_orig_sol
+2019-12-20 14:34:06,662 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2019-12-20 14:34:06,663 DEBUG [main] headers:265 - << Pagespeed: off
+2019-12-20 14:34:06,663 DEBUG [main] headers:265 - << Pragma: no-cache
+2019-12-20 14:34:06,664 DEBUG [main] headers:265 - << Referrer-Policy: 
+2019-12-20 14:34:06,664 DEBUG [main] headers:265 - << Response: 200
+2019-12-20 14:34:06,664 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2019-12-20 14:34:06,665 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=f2340fb8dbe557ec6f201292f67eaa45; path=/
+2019-12-20 14:34:06,665 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:05 UTC
+2019-12-20 14:34:06,666 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:05 UTC
+2019-12-20 14:34:06,666 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod36-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:05 UTC
+2019-12-20 14:34:06,666 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1576832645; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:05 UTC
+2019-12-20 14:34:06,667 DEBUG [main] headers:265 - << Set-Cookie: lp_133674=http://dummy.restapiexample.com/api/v1/employee/214114; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:06 UTC
+2019-12-20 14:34:06,667 DEBUG [main] headers:265 - << Set-Cookie: ezovuuidtime_133674=1576832646; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:06 UTC
+2019-12-20 14:34:06,667 DEBUG [main] headers:265 - << Set-Cookie: ezovuuid_133674=9cc57c00-aa8e-4386-4433-f07af10ea5de; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:06 UTC
+2019-12-20 14:34:06,667 DEBUG [main] headers:265 - << Set-Cookie: ezopvc_133674=1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:06 UTC
+2019-12-20 14:34:06,668 DEBUG [main] headers:265 - << Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:04:06 GMT
+2019-12-20 14:34:06,668 DEBUG [main] headers:265 - << Vary: User-Agent,Accept-Encoding,X-APP-JSON
+2019-12-20 14:34:06,668 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2019-12-20 14:34:06,669 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2019-12-20 14:34:06,669 DEBUG [main] headers:265 - << X-Middleton-Display: pub_site_to_orig_sol
+2019-12-20 14:34:06,669 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2019-12-20 14:34:06,670 DEBUG [main] headers:265 - << X-Shard: 100224107
+2019-12-20 14:34:06,670 DEBUG [main] headers:265 - << X-Sol: pub_site
+2019-12-20 14:34:06,670 DEBUG [main] headers:265 - << X-Varnish: 740505524
+2019-12-20 14:34:06,671 DEBUG [main] headers:265 - << X-Vcache: Miss
+2019-12-20 14:34:06,671 DEBUG [main] headers:265 - << Content-Length: 1070
+2019-12-20 14:34:06,672 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-12-20 14:34:06,672 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html; charset=UTF-8
+2019-12-20 14:34:06,672 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xbc]V]o[0xe3]([0x1b][0xbd]N~[0x85][0x87][0xb][0xc7][0xa8][0x1e];I[0xfb][0xce][0x8c][0xea][0x90]h[0xa4][0x99][0x91]^ioV[0xdd][0xbb][0xaa][0xaa][0x8]<[0xb6]i[0x9][0xb8][0x80][0xd3][0xa6]i[0xfe][0xfb][0xca]v[0xe2]|4[0xee][0xec][0xcd][0xee]U0[0x1c][0x9e]s8[0x1c][0x8])[0x95][0x16]&[0x96][0x19]Q8[0xcf][0xad][\n]"
+2019-12-20 14:34:06,673 DEBUG [main] wire:73 -  << " [0x3][0x7]/.~[0xa0]K[0xda][0xf4][0xe]<[0xeb]V[0x12][0xc8][0x80][0xb][H[0xba][0xba]VZA2[0xf0][0xa8]])6[0xed][0xdf][0xdf][0xc3]k[0xf4]TB[0x9][0x11][0xe5][0xfc][0x97][0x90][0x10][0xc][0x80]/[0xb4]rZEE^[0xc]Bo[0x10]spF[0xb][0xc7]r[0xc1]h[0xa6][0xe3]v[0xfc][0x19][0xe6][0xc5][0x8c][0x12][0xea][0xb3]9[0xb9][0xf4]m^[0xfd][0x8c][0x7][0xa1][0xe7]L[0x9][0xa1]w{[0xb7]k[0xd5]*[0x8f]pr[0x96][0xfa][0x1][0xa4]\[0xa5][0xc2][0xe6]-w[0xa1]M[0xa1][0x85][0x5][0xaa]\[0xbc][0x1f][0xed]b[0xde]R[0xfc][0x8e]z[0x12]7[0xe6]L[0xfb][0xfd][0xad]y[0xd3]%5[0xde]=-[0xb9]P[0xf6][0x9e][0xeb][0x5]A[0x6][0xac][0xa3][0x85][0x80][0x17][0xba]($[0xdc]3[0xbd]@a[0xb][0x10][0x9c][0x8c]./[0xbf]|[0xbd]J[0x8e]W[0xf1][0x3]$][0xfd]*[0x15][0xb]P[0x3][0x8d][0x1e],[\n]"
+2019-12-20 14:34:06,673 DEBUG [main] wire:73 -  << "Q[\r]j[0x88]*[0x14][\n]"
+2019-12-20 14:34:06,674 DEBUG [main] wire:87 -  << "=[0x14][0xc7][0x99][0x8e][0xe0]U[0xb][0x16])p[0xa7][0x16][0xb7][0x93]glNF[0xdf][0xbe]}[0xbe]D8iUO[0x94][0xde][0xb5][0xb8]Xn7[0x18][0x1d]m0[0x9a]N[0xc4]"[0xf3][0xac]a[0x4][0xc5]q!^@FO%U[0xce][0x82]YB[0xc4][0xf4][0xa2][0xe9][0x8c][0x8b][0xcf][0x97]#[0xf1][0xfa]%O[0x95][0x8e][0x8f][0xbe]D[0x99]Hg[0x92][0xce]AZ[0xf2]C/[0xa8]P[0xd1]{#[0xc2]f[0xe4][0xff]<jL@[0xde]\[0x1b][0xe][0x86][0xa0]![0xf2]r[0x10]Y[0xee][0x8][0x1a]![0xef]Yp[0x97][0xd7]-*[0x1d]AV[0xfc][0x8c]Z[0x87][0xe2][0xe9]$[0xe6]b9[0x9d][0xc4][0xfb][0x95][0xec][[0xad][0xf0][0xdc][0xb9][0xc2]^[0xc7][0xb1][0x9d]G[0x96]i[0x3][0x8c][0x1a]n[0xc0][0x2]5,o[0x96]0c#2[0xf6][0xd9][0x98][0x8c][0x87][0xc3][0xd1][0xff][0xae][0xc6]_}[0xb6]$[0xe3]h[0xe8][0xb3][0x7]2[0xaa]i[0xda][0xb2][0xfd][0x8f][0x8f][0xc9]4HK[0xc5][0x9c][0xd0]*[0xc0][0xeb]][0xd3][0x9b][0x7][0x10]2[0xbc]N[0xb5][0x9][0xaa][0x80]p2L[0xf8][0x84]E[0x12]T[0xe6][0xf2][0x84]_\[0xe0]u[0xd5][0x9f][0x12]v[0xcb][0xef][0x12][0x91][0x6]CB[0xd2]JZ![0xc1][0xc1][0xdb][0x1b]*[0x15][0x87]T([0xe0][0xe8][0x13][0xa9][0x88]u[0xea][0xa5][0x91][0x1][0xca]W7[0x8e]:[0xf0][0xfd][0xab][0xe9][0xe1]wS.#i[0x94][0x81][0xfb][0xee][0x9c][0x11][0xf3][0xd2]A[0x80][0xac]a[0x8][0xbf][0xbd][0xa5][0x11]+[0x8d][0x1][0xe5]n[0xc]K~_[0xbb][0x16][0xb3][0xef][0x98][0xa5]U[0xf8]~.A[0xb9]?[0x84]u[0xa0][0xc0][0x4]Hj[0xca][0xad][0xa3][0xc6][0xa1][0xb0]5 od<[0x92][0xfc][0xbc][0x8c][0xfc]P[0xc6][0xb3]P\?WQ6O6[0xc8][0xc3]G[0xbc][0xc1][0xd7][0xc1]?ZBx<7[\r]3[0x8c][0x93].[0x91][0xe7][0xf5]m[0x8b][0xfd]EM[0x6][0xae]K[0xad]5[0xec][0xa7][0x84][0x5]([0xd7]%[0x1c][0x82]<[0xec][0xf7]z[0x95][0xf6]N[0x1][0xc0]9u[0xf4]_[0x97][0xd1][0xa9][0x1][0x8c][0xd1][0xe6]?[0xa1][0xdf]l6[0xed][0x9][0xa0][0x1][0xec][0xf3][0xcf][0xc8]0a[0x13][0xae]YY[0x97][0xa9]/[0x9e][0x9b][0x1c][0xc0][0xd9][0xdd][0x91]`[0x17][0x17]X[0xa4][0xc1]9[0xc8]-[0xbb][0x8b]r[0x3])![0x80][\r][0xb8][0xd2][0xa8]O[0xc3]d[0xdb][0x18]m[0xe6][0x1][0x12][0x8b][0xc][0x85][0xed][0xcc][0xa7][0x12][0xcc][0xea][0x6]$0[0xa7][0xcd]w)[0x9b]q[0x8c][0x93]y[0x80][0x96][0x82][0x83][0xfe][0x10][0xdb] [0x1a]tu[0x99]~[0x8c]n[0x10][0x18]'[0xfd]^o[0xf][0xbc][8[0x1c][0xae]r[0xdd]\[0x8]p[0xcb][0xea][0x83][0x1f][0xa0][0xc2]@[0x9d]SB[0xf8][0xc9][0x16][0x18][0x90][0xd5][0x16][0xa0][0xda][0xc][[0x99][0xd1][0x5][0xc2][0xbe][0xaf]J)?[0xbd][0x1b][0xad][0x8c]C[0xd8][0xf7]ip~[0x4][0xe3][0xf5][0xf1]a[0xe2]a[0x7]0i.[0xac][0xd6][\r]f[0x80]:[0xd8]&ckr[0x92]FZ[0xd5]y#[0xad][0x1b][0x19]^[0x9f][0xbb]q[0xb2][0xa8][0xa0].[0xf7][0xfd][0xee][0xb1][0xdb][0xe1][0xdd]A[0xe0]f[0xc7][0x81][0xe3][0xe1]9[0x10][0xbe]>_n[0x1f][0xe1].[0xc2][0x83][0x90]W[0xeb][0xf5][0xfd][0xf7]t'[0x10][0xbc]I[0xd2][0xaa][0x8f][0xf4]{[0xbd][0xf3][0x96]m6[0x1b][0x1c]|[0x90][0x1e])[0xd4]ce[0xec][0xae]ja[0xb4][0xd3][0x95][0xa2]w[0x87][0xd8][0xf7][0x3][0xb4]3[0x14][0x91][0x9d][0xea][0xad]D[0xad][0xaa][0xf8][0xf8]~[0xb0][0xfd][0xee][0xba][0x6][0x8f][0xe0][0xf8][0xf8][0x93]T[0xe9][0xc1][0xe1][0x19][0x92]VK[0xd3][0xf6][0x9c][0x12]u2[0x9f][0xd4][0xc0][0xa7][0x1d][\r];[0xde][0xe0][0xe0][0xf0][0xb1]r[0xf8][0xb7][0x8b]N[0xfe]v[0x91][0xb7][0x9d]Y?[0x91][0x98][0x8c]r[0xaa][0xb8][0x84][0xa0]z[0xbc][0xe1][0x4]5[0xaf][0xd4][0xed]+[0xa6]tB2[0xba][0xac]_ [0xb1]P,[0xae]'[0xd4]/A6'Wh[0xda]R[0xfe][0x1d][0x0][0x0][0xff][0xff]W[0xbc]h9[0x16][0xb][0x0][0x0]"
+2019-12-20 14:34:06,674 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-12-20 14:34:06,682 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@10567255
+2019-12-20 14:34:06,683 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-12-20 14:34:06,683  INFO [main] RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+false<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript'>(function(){function b(e,c){for(var d=0;d<c.length;d++){var f=c[d];if(0==f.complete||"undefined"!=typeof f.readyState&&4>f.readyState){var g=f.getAttribute("src")||f.currentSrc;"undefined"!=typeof f.readyState&&0==f.readyState?f.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(g=f.getAttribute("src")||f.currentSrc,window.ezorqs(f,g));f.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+		k)});f.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});f.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(e){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==e)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+		(function(e){for(var c=0;c<e.length;c++){var d=e[c];if(("preload"==d.getAttribute("rel")||"stylesheet"==d.getAttribute("rel"))&&null!=d.getAttribute("href")&&a(d.getAttribute("href"))){window.ezorqs(d,d.getAttribute("href"));var f=document.createElement("img");f.onerror=function(g){"undefined"!=typeof g.path&&"undefined"!=typeof g.path[0].currentSrc?window.ezorqe(d,g.path[0].currentSrc):"undefined"!=typeof g.srcElement&&"undefined"!=typeof g.srcElement.href&&window.ezorqe(d,g.srcElement.href)};f.src=
+		d.getAttribute("href")}}})(document.querySelectorAll("link"));Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script><script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script>
+2019-12-20 14:34:06,685  INFO [main] RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-20 14:34:06,687  INFO [main] RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-20 14:34:06,687  INFO [main] RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-20 14:34:06,689  INFO [main] RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-20 14:34:06,710  INFO [main] RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-20 14:34:06,763 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2019-12-20 14:34:06,764 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2019-12-20 14:34:06,805 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-12-20 14:34:06,806 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-12-20 14:34:06,806 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-12-20 14:34:06,807 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-12-20 14:34:06,807 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2019-12-20 14:34:06,808 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/v1/create HTTP/1.1
+2019-12-20 14:34:06,809 DEBUG [main] wire:73 -  >> "POST /api/v1/create HTTP/1.1[\r][\n]"
+2019-12-20 14:34:06,810 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2019-12-20 14:34:06,810 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-12-20 14:34:06,811 DEBUG [main] wire:73 -  >> "Content-Length: 51[\r][\n]"
+2019-12-20 14:34:06,812 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2019-12-20 14:34:06,812 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-12-20 14:34:06,813 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2019-12-20 14:34:06,814 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-12-20 14:34:06,815 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2019-12-20 14:34:06,816 DEBUG [main] headers:278 - >> POST /api/v1/create HTTP/1.1
+2019-12-20 14:34:06,817 DEBUG [main] headers:281 - >> Accept: */*
+2019-12-20 14:34:06,817 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-12-20 14:34:06,818 DEBUG [main] headers:281 - >> Content-Length: 51
+2019-12-20 14:34:06,819 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2019-12-20 14:34:06,820 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2019-12-20 14:34:06,820 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2019-12-20 14:34:06,821 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2019-12-20 14:34:06,823 DEBUG [main] wire:87 -  >> "{"name":"AgasthyawSe","salary":"655801","age":"51"}"
+2019-12-20 14:34:07,783 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-12-20 14:34:07,785 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-12-20 14:34:07,787 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-12-20 14:34:07,789 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2019-12-20 14:34:07,791 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2019-12-20 14:34:07,793 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2019-12-20 14:34:07,795 DEBUG [main] wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2019-12-20 14:34:07,796 DEBUG [main] wire:73 -  << "Date: Fri, 20 Dec 2019 09:04:07 GMT[\r][\n]"
+2019-12-20 14:34:07,799 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2019-12-20 14:34:07,801 DEBUG [main] wire:73 -  << "Pagespeed: off[\r][\n]"
+2019-12-20 14:34:07,804 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2019-12-20 14:34:07,807 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2019-12-20 14:34:07,809 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2019-12-20 14:34:07,811 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2019-12-20 14:34:07,813 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=bf9a779050f64702a721c02959e9bc8f; path=/[\r][\n]"
+2019-12-20 14:34:07,818 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:06 UTC[\r][\n]"
+2019-12-20 14:34:07,819 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:06 UTC[\r][\n]"
+2019-12-20 14:34:07,820 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod70-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:06 UTC[\r][\n]"
+2019-12-20 14:34:07,822 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1576832646; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:06 UTC[\r][\n]"
+2019-12-20 14:34:07,823 DEBUG [main] wire:73 -  << "Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:04:07 GMT[\r][\n]"
+2019-12-20 14:34:07,824 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,X-APP-JSON[\r][\n]"
+2019-12-20 14:34:07,826 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2019-12-20 14:34:07,827 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2019-12-20 14:34:07,828 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2019-12-20 14:34:07,829 DEBUG [main] wire:73 -  << "X-Shard: 100224107[\r][\n]"
+2019-12-20 14:34:07,829 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2019-12-20 14:34:07,830 DEBUG [main] wire:73 -  << "X-Varnish: 769240483[\r][\n]"
+2019-12-20 14:34:07,831 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2019-12-20 14:34:07,831 DEBUG [main] wire:73 -  << "Content-Length: 65[\r][\n]"
+2019-12-20 14:34:07,832 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-12-20 14:34:07,833 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-12-20 14:34:07,834 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2019-12-20 14:34:07,834 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2019-12-20 14:34:07,834 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2019-12-20 14:34:07,835 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2019-12-20 14:34:07,835 DEBUG [main] headers:265 - << Age: 0
+2019-12-20 14:34:07,836 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2019-12-20 14:34:07,837 DEBUG [main] headers:265 - << Content-Type: text/html; charset=UTF-8
+2019-12-20 14:34:07,838 DEBUG [main] headers:265 - << Date: Fri, 20 Dec 2019 09:04:07 GMT
+2019-12-20 14:34:07,839 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2019-12-20 14:34:07,840 DEBUG [main] headers:265 - << Pagespeed: off
+2019-12-20 14:34:07,841 DEBUG [main] headers:265 - << Pragma: no-cache
+2019-12-20 14:34:07,841 DEBUG [main] headers:265 - << Referrer-Policy: 
+2019-12-20 14:34:07,842 DEBUG [main] headers:265 - << Response: 200
+2019-12-20 14:34:07,843 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2019-12-20 14:34:07,843 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=bf9a779050f64702a721c02959e9bc8f; path=/
+2019-12-20 14:34:07,844 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:06 UTC
+2019-12-20 14:34:07,844 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:06 UTC
+2019-12-20 14:34:07,845 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod70-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:06 UTC
+2019-12-20 14:34:07,846 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1576832646; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:06 UTC
+2019-12-20 14:34:07,846 DEBUG [main] headers:265 - << Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:04:07 GMT
+2019-12-20 14:34:07,847 DEBUG [main] headers:265 - << Vary: Accept-Encoding,X-APP-JSON
+2019-12-20 14:34:07,847 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2019-12-20 14:34:07,848 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2019-12-20 14:34:07,849 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2019-12-20 14:34:07,849 DEBUG [main] headers:265 - << X-Shard: 100224107
+2019-12-20 14:34:07,850 DEBUG [main] headers:265 - << X-Sol: pub_site
+2019-12-20 14:34:07,851 DEBUG [main] headers:265 - << X-Varnish: 769240483
+2019-12-20 14:34:07,852 DEBUG [main] headers:265 - << X-Vcache: Miss
+2019-12-20 14:34:07,852 DEBUG [main] headers:265 - << Content-Length: 65
+2019-12-20 14:34:07,853 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-12-20 14:34:07,854 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html; charset=UTF-8
+2019-12-20 14:34:07,854 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-12-20 14:34:13,858  INFO [main] RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@315ba14a
+2019-12-20 14:34:13,864  INFO [main] RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-20 14:34:13,867 DEBUG [main] wire:87 -  << "{"name":"AgasthyawSe","salary":"655801","age":"51","id":"214206"}"
+2019-12-20 14:34:13,868 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@54e81b21
+2019-12-20 14:34:13,869 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-12-20 14:34:13,912  INFO [main] RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 214206, AgasthyawSe, 51, 655801, 
+2019-12-20 14:34:13,914  INFO [main] RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-20 14:34:13,928 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2019-12-20 14:34:13,929 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2019-12-20 14:34:13,969 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-12-20 14:34:13,970 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-12-20 14:34:13,971 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-12-20 14:34:13,972 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-12-20 14:34:13,973 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2019-12-20 14:34:13,974 DEBUG [main] DefaultClientConnection:274 - Sending request: PUT /api/v1/update/214114 HTTP/1.1
+2019-12-20 14:34:13,975 DEBUG [main] wire:73 -  >> "PUT /api/v1/update/214114 HTTP/1.1[\r][\n]"
+2019-12-20 14:34:13,976 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2019-12-20 14:34:13,976 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-12-20 14:34:13,977 DEBUG [main] wire:73 -  >> "Content-Length: 51[\r][\n]"
+2019-12-20 14:34:13,978 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2019-12-20 14:34:13,979 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-12-20 14:34:13,979 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2019-12-20 14:34:13,980 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-12-20 14:34:13,981 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2019-12-20 14:34:13,981 DEBUG [main] headers:278 - >> PUT /api/v1/update/214114 HTTP/1.1
+2019-12-20 14:34:13,981 DEBUG [main] headers:281 - >> Accept: */*
+2019-12-20 14:34:13,982 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2019-12-20 14:34:13,983 DEBUG [main] headers:281 - >> Content-Length: 51
+2019-12-20 14:34:13,983 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2019-12-20 14:34:13,984 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2019-12-20 14:34:13,984 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2019-12-20 14:34:13,984 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2019-12-20 14:34:13,985 DEBUG [main] wire:87 -  >> "{"name":"Agasthyaigs","salary":"506725","age":"02"}"
+2019-12-20 14:34:14,835 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-12-20 14:34:14,835 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2019-12-20 14:34:14,836 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-12-20 14:34:14,836 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2019-12-20 14:34:14,836 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2019-12-20 14:34:14,837 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2019-12-20 14:34:14,837 DEBUG [main] wire:73 -  << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2019-12-20 14:34:14,837 DEBUG [main] wire:73 -  << "Date: Fri, 20 Dec 2019 09:04:14 GMT[\r][\n]"
+2019-12-20 14:34:14,838 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2019-12-20 14:34:14,838 DEBUG [main] wire:73 -  << "Pagespeed: off[\r][\n]"
+2019-12-20 14:34:14,838 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2019-12-20 14:34:14,839 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2019-12-20 14:34:14,839 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2019-12-20 14:34:14,839 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2019-12-20 14:34:14,840 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=db1643045a11ed107a875e87989cbfc8; path=/[\r][\n]"
+2019-12-20 14:34:14,840 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:13 UTC[\r][\n]"
+2019-12-20 14:34:14,841 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:13 UTC[\r][\n]"
+2019-12-20 14:34:14,841 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod6-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:13 UTC[\r][\n]"
+2019-12-20 14:34:14,841 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1576832653; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:13 UTC[\r][\n]"
+2019-12-20 14:34:14,842 DEBUG [main] wire:73 -  << "Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:04:14 GMT[\r][\n]"
+2019-12-20 14:34:14,842 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,X-APP-JSON[\r][\n]"
+2019-12-20 14:34:14,843 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2019-12-20 14:34:14,843 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2019-12-20 14:34:14,843 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2019-12-20 14:34:14,844 DEBUG [main] wire:73 -  << "X-Shard: 100225165[\r][\n]"
+2019-12-20 14:34:14,844 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2019-12-20 14:34:14,845 DEBUG [main] wire:73 -  << "X-Varnish: 977843944[\r][\n]"
+2019-12-20 14:34:14,845 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2019-12-20 14:34:14,845 DEBUG [main] wire:73 -  << "Content-Length: 51[\r][\n]"
+2019-12-20 14:34:14,846 DEBUG [main] wire:73 -  << "[\r][\n]"
+2019-12-20 14:34:14,846 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-12-20 14:34:14,847 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2019-12-20 14:34:14,847 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2019-12-20 14:34:14,847 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2019-12-20 14:34:14,848 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2019-12-20 14:34:14,848 DEBUG [main] headers:265 - << Age: 0
+2019-12-20 14:34:14,848 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2019-12-20 14:34:14,849 DEBUG [main] headers:265 - << Content-Type: text/html; charset=UTF-8
+2019-12-20 14:34:14,849 DEBUG [main] headers:265 - << Date: Fri, 20 Dec 2019 09:04:14 GMT
+2019-12-20 14:34:14,849 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2019-12-20 14:34:14,850 DEBUG [main] headers:265 - << Pagespeed: off
+2019-12-20 14:34:14,850 DEBUG [main] headers:265 - << Pragma: no-cache
+2019-12-20 14:34:14,850 DEBUG [main] headers:265 - << Referrer-Policy: 
+2019-12-20 14:34:14,851 DEBUG [main] headers:265 - << Response: 200
+2019-12-20 14:34:14,851 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2019-12-20 14:34:14,852 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=db1643045a11ed107a875e87989cbfc8; path=/
+2019-12-20 14:34:14,852 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 09:34:13 UTC
+2019-12-20 14:34:14,853 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:13 UTC
+2019-12-20 14:34:14,853 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod6-c; Path=/; Domain=restapiexample.com; Expires=Fri, 20 Dec 2019 11:04:13 UTC
+2019-12-20 14:34:14,853 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1576832653; Path=/; Domain=restapiexample.com; Expires=Sun, 22 Dec 2019 09:04:13 UTC
+2019-12-20 14:34:14,853 DEBUG [main] headers:265 - << Set-Cookie: ezCMPCCS=true; Path=/; Domain=restapiexample.com; Expires=Sun, 20 Dec 2020 09:04:14 GMT
+2019-12-20 14:34:14,854 DEBUG [main] headers:265 - << Vary: Accept-Encoding,X-APP-JSON
+2019-12-20 14:34:14,854 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2019-12-20 14:34:14,855 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2019-12-20 14:34:14,855 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2019-12-20 14:34:14,855 DEBUG [main] headers:265 - << X-Shard: 100225165
+2019-12-20 14:34:14,855 DEBUG [main] headers:265 - << X-Sol: pub_site
+2019-12-20 14:34:14,856 DEBUG [main] headers:265 - << X-Varnish: 977843944
+2019-12-20 14:34:14,856 DEBUG [main] headers:265 - << X-Vcache: Miss
+2019-12-20 14:34:14,856 DEBUG [main] headers:265 - << Content-Length: 51
+2019-12-20 14:34:14,857 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-12-20 14:34:14,858 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html; charset=UTF-8
+2019-12-20 14:34:14,858 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-12-20 14:34:20,864 DEBUG [main] wire:87 -  << "{"name":"Agasthyaigs","salary":"506725","age":"02"}"
+2019-12-20 14:34:20,865 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30865a90
+2019-12-20 14:34:20,866 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2019-12-20 14:34:20,867  INFO [main] RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"Agasthyaigs","salary":"506725","age":"02"}
+2019-12-20 14:34:20,871  INFO [main] RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-20 14:34:20,872  INFO [main] RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-20 14:34:20,876  INFO [main] RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-20 14:34:20,913  INFO [main] RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> Agasthyaigs, 02, 506725, null
+2019-12-20 14:34:20,914  INFO [main] RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-20 14:34:20,916  INFO [main] RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-20 14:34:20,917  INFO [main] RestAPITestinForEmployeeDB:102 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-20 14:34:20,918  INFO [main] RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-20 14:34:20,920  INFO [main] RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-20 14:34:20,921  INFO [main] RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-20 14:34:20,964 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:20,965 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-12-20 14:34:20,967 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-12-20 14:34:20,967 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-12-20 14:34:21,177 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,178 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-12-20 14:34:21,178 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-12-20 14:34:21,179 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-12-20 14:34:21,206 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,206 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-12-20 14:34:21,207 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-12-20 14:34:21,207 DEBUG [main] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-12-20 14:34:21,216 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-12-20 14:34:21,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-12-20 14:34:21,218 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-12-20 14:34:21,231 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,231 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-12-20 14:34:21,232 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-12-20 14:34:21,233 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-12-20 14:34:21,254 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,255 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-12-20 14:34:21,255 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-12-20 14:34:21,256 DEBUG [main] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-12-20 14:34:21,303 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,309 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,311 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,314 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,318 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,319 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,320 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,323 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,328 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,329 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,330 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,332 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,334 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,335 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,338 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,342 DEBUG [main] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-12-20 14:34:21,343 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,344 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-12-20 14:34:21,345 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-12-20 14:34:21,345 DEBUG [main] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-12-20 14:34:21,356 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,357 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-12-20 14:34:21,357 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-12-20 14:34:21,358 DEBUG [main] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-12-20 14:34:21,366 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,367 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-12-20 14:34:21,367 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-12-20 14:34:21,368 DEBUG [main] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-12-20 14:34:21,375 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,376 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-12-20 14:34:21,377 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-12-20 14:34:21,377 DEBUG [main] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-12-20 14:34:21,390 DEBUG [main] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-12-20 14:34:21,393 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-12-20 14:34:21,394 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-12-20 14:34:21,394 DEBUG [main] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/dhanr/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

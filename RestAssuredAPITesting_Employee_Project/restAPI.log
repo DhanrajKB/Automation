@@ -1,0 +1,47 @@
+2019-12-20 14:07:49 INFO  RestAPITestinForEmployeeDB:41 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:85 - ------------ checking content type the header -----------
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:87 - Content Type :-->> text/html; charset=UTF-8
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:74 - ------------ Checking response time of the request------------
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:79 - Response time :---> 3656
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:93 - ----------- checking server type of the header ----------
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:95 - Server type :--->>> nginx/1.16.0
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:62 - ------------ checking status line and status code --------------
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:67 - Status Code :---> 200
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:68 - Status Line :---> HTTP/1.1 200 OK
+2019-12-20 14:07:59 INFO  RestAPITestinForEmployeeDB:53 - ----------- Cheking response --------------
+2019-12-20 14:08:00 INFO  RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-20 14:08:00 INFO  RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-20 14:08:03 INFO  RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+false<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript'>(function(){function b(e,c){for(var d=0;d<c.length;d++){var f=c[d];if(0==f.complete||"undefined"!=typeof f.readyState&&4>f.readyState){var g=f.getAttribute("src")||f.currentSrc;"undefined"!=typeof f.readyState&&0==f.readyState?f.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(g=f.getAttribute("src")||f.currentSrc,window.ezorqs(f,g));f.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+		k)});f.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});f.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(e){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==e)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+		(function(e){for(var c=0;c<e.length;c++){var d=e[c];if(("preload"==d.getAttribute("rel")||"stylesheet"==d.getAttribute("rel"))&&null!=d.getAttribute("href")&&a(d.getAttribute("href"))){window.ezorqs(d,d.getAttribute("href"));var f=document.createElement("img");f.onerror=function(g){"undefined"!=typeof g.path&&"undefined"!=typeof g.path[0].currentSrc?window.ezorqe(d,g.path[0].currentSrc):"undefined"!=typeof g.srcElement&&"undefined"!=typeof g.srcElement.href&&window.ezorqe(d,g.srcElement.href)};f.src=
+		d.getAttribute("href")}}})(document.querySelectorAll("link"));Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script>
+2019-12-20 14:08:03 INFO  RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-20 14:08:03 INFO  RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-20 14:08:03 INFO  RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-20 14:08:03 INFO  RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-20 14:08:03 INFO  RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-20 14:08:10 INFO  RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@1ad777f
+2019-12-20 14:08:10 INFO  RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-20 14:08:10 INFO  RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 214154, AgasthyaPUQ, 78, 142828, 
+2019-12-20 14:08:10 INFO  RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"AgasthyazpV","salary":"339497","age":"52"}
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> AgasthyazpV, 52, 339497, null
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:102 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-20 14:08:17 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
