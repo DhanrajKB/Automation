@@ -545,3 +545,252 @@ __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=3
 2019-12-20 15:55:21 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
 2019-12-20 15:55:21 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
 2019-12-20 15:55:21 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-23 21:22:33 INFO  RestAPITestinForEmployeeDB:41 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:86 - ------------ checking content type the header -----------
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:88 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:75 - ------------ Checking response time of the request------------
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:80 - Response time :---> 3034
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:94 - ----------- checking server type of the header ----------
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:96 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:63 - ------------ checking status line and status code --------------
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:68 - Status Code :---> 200
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:69 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:22:43 INFO  RestAPITestinForEmployeeDB:53 - ----------- Cheking response --------------
+2019-12-23 21:22:44 INFO  RestAPITestinForEmployeeDB:103 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:30:22 INFO  RestAPITestinForEmployeeDB:44 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:97 - ------------ checking content type the header -----------
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:99 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:86 - ------------ Checking response time of the request------------
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:91 - Response time :---> 2660
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:105 - ----------- checking server type of the header ----------
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:107 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:74 - ------------ checking status line and status code --------------
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:79 - Status Code :---> 200
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:80 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:30:32 INFO  RestAPITestinForEmployeeDB:56 - ----------- Cheking response --------------
+2019-12-23 21:30:34 INFO  RestAPITestinForEmployeeDB:114 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:31:39 INFO  RestAPITestinForEmployeeDB:44 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:97 - ------------ checking content type the header -----------
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:99 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:86 - ------------ Checking response time of the request------------
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:91 - Response time :---> 2331
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:105 - ----------- checking server type of the header ----------
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:107 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:74 - ------------ checking status line and status code --------------
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:79 - Status Code :---> 200
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:80 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:31:48 INFO  RestAPITestinForEmployeeDB:56 - ----------- Cheking response --------------
+2019-12-23 21:31:49 INFO  RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-23 21:31:49 INFO  RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-23 21:31:50 INFO  RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+{"id":"224208","employee_name":"tes1111t","employee_salary":"123","employee_age":"33","profile_image":""}
+2019-12-23 21:31:50 INFO  RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-23 21:31:50 INFO  RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-23 21:31:50 INFO  RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-23 21:31:50 INFO  RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-23 21:31:50 INFO  RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-23 21:31:58 INFO  RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@2b50150
+2019-12-23 21:31:58 INFO  RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-23 21:31:58 INFO  RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 226676, AgasthyaBgo, 64, 414607, 
+2019-12-23 21:31:58 INFO  RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"Agasthyamwz","salary":"584113","age":"32"}
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> Agasthyamwz, 32, 584113, null
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:114 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-23 21:32:05 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-23 21:32:42 INFO  RestAPITestinForEmployeeDB:44 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:97 - ------------ checking content type the header -----------
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:99 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:86 - ------------ Checking response time of the request------------
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:91 - Response time :---> 2218
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:105 - ----------- checking server type of the header ----------
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:107 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:74 - ------------ checking status line and status code --------------
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:79 - Status Code :---> 200
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:80 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:32:51 INFO  RestAPITestinForEmployeeDB:56 - ----------- Cheking response --------------
+2019-12-23 21:32:52 INFO  RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-23 21:32:52 INFO  RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-23 21:32:53 INFO  RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+{"id":"224208","employee_name":"Agasthyamwz","employee_salary":"584113","employee_age":"32","profile_image":""}
+2019-12-23 21:32:53 INFO  RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-23 21:32:53 INFO  RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-23 21:32:53 INFO  RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-23 21:32:53 INFO  RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-23 21:32:53 INFO  RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-23 21:33:00 INFO  RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@4f8caaf3
+2019-12-23 21:33:00 INFO  RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-23 21:33:00 INFO  RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 226678, AgasthyahHV, 63, 738879, 
+2019-12-23 21:33:00 INFO  RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"AgasthyanNZ","salary":"534211","age":"98"}
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> AgasthyanNZ, 98, 534211, null
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:114 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-23 21:33:07 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-23 21:34:09 INFO  RestAPITestinForEmployeeDB:44 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:97 - ------------ checking content type the header -----------
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:99 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:86 - ------------ Checking response time of the request------------
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:91 - Response time :---> 2534
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:105 - ----------- checking server type of the header ----------
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:107 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:74 - ------------ checking status line and status code --------------
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:79 - Status Code :---> 200
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:80 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:34:18 INFO  RestAPITestinForEmployeeDB:56 - ----------- Cheking response --------------
+2019-12-23 21:34:19 INFO  RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-23 21:34:19 INFO  RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-23 21:34:20 INFO  RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+{"id":"224208","employee_name":"AgasthyanNZ","employee_salary":"534211","employee_age":"98","profile_image":""}
+2019-12-23 21:34:20 INFO  RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-23 21:34:20 INFO  RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-23 21:34:20 INFO  RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-23 21:34:20 INFO  RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-23 21:34:21 INFO  RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-23 21:34:28 INFO  RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@4f8caaf3
+2019-12-23 21:34:28 INFO  RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-23 21:34:28 INFO  RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 226681, AgasthyafDS, 90, 635002, 
+2019-12-23 21:34:28 INFO  RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"AgasthyaPQA","salary":"834896","age":"93"}
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> AgasthyaPQA, 93, 834896, null
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:114 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-23 21:34:36 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-23 21:35:54 INFO  RestAPITestinForEmployeeDB:44 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:25 - #####------------- TC005_DeleteEmployeeRecord starts ----------######
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:97 - ------------ checking content type the header -----------
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:99 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:86 - ------------ Checking response time of the request------------
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:91 - Response time :---> 2658
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:105 - ----------- checking server type of the header ----------
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:107 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:74 - ------------ checking status line and status code --------------
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:79 - Status Code :---> 200
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:80 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:36:04 INFO  RestAPITestinForEmployeeDB:56 - ----------- Cheking response --------------
+2019-12-23 21:36:05 INFO  RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-23 21:36:05 INFO  RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-23 21:36:07 INFO  RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+{"id":"224208","employee_name":"AgasthyaPQA","employee_salary":"834896","employee_age":"93","profile_image":""}
+2019-12-23 21:36:07 INFO  RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-23 21:36:07 INFO  RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-23 21:36:07 INFO  RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-23 21:36:07 INFO  RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-23 21:36:07 INFO  RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-23 21:36:14 INFO  RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@6bb7cce7
+2019-12-23 21:36:14 INFO  RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-23 21:36:14 INFO  RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 226688, AgasthyaobX, 06, 823715, 
+2019-12-23 21:36:14 INFO  RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"AgasthyabCg","salary":"547964","age":"53"}
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> AgasthyabCg, 53, 547964, null
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-23 21:36:21 INFO  RestAPITestinForEmployeeDB:35 - ------------ deleting employee record ----------------
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:39 - Response body is :----> 
+{"success":{"text":"successfully! deleted Records"}}
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:56 - --------- validating content type ---------------
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:59 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:45 - --------- validating response body -------------
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:48 - Delete the employee record successfully
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:76 - --------- validating server type --------
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:67 - --------- validating Status line and status code ---------------
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:114 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-23 21:36:28 INFO  RestAPITestinForEmployeeDB:84 - --------- validating response body -------------
+2019-12-23 21:36:29 INFO  RestAPITestinForEmployeeDB:90 - Deleted record of empID - '224208', not exists in Db
+2019-12-23 21:36:29 INFO  RestAPITestinForEmployeeDB:94 - #####------------- TC005_DeleteEmployeeRecord ends ----------######
+2019-12-23 21:37:11 INFO  RestAPITestinForEmployeeDB:44 - ####-------- TC001_GetAllEmployees starts -------#####
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:31 - ####--------- TC003_PostEmployeeRecord starts -------######
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:40 - ####------- TC004_PutEmployeeData starts -----------#####
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:25 - #####------------- TC005_DeleteEmployeeRecord starts ----------######
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:97 - ------------ checking content type the header -----------
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:99 - Content Type :-->> text/html; charset=UTF-8
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:86 - ------------ Checking response time of the request------------
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:91 - Response time :---> 2224
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:105 - ----------- checking server type of the header ----------
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:107 - Server type :--->>> nginx/1.16.0
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:74 - ------------ checking status line and status code --------------
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:79 - Status Code :---> 200
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:80 - Status Line :---> HTTP/1.1 200 OK
+2019-12-23 21:37:20 INFO  RestAPITestinForEmployeeDB:56 - ----------- Cheking response --------------
+2019-12-23 21:37:21 INFO  RestAPITestinForEmployeeDB:39 - #####-------- TC002_GetSingleEmployeeData starts --------######
+2019-12-23 21:37:21 INFO  RestAPITestinForEmployeeDB:48 - --------- getting response ----------
+2019-12-23 21:37:22 INFO  RestAPITestinForEmployeeDB:50 - Response is :-->>> 
+false<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript'>(function(){function b(e,c){for(var d=0;d<c.length;d++){var f=c[d];if(0==f.complete||"undefined"!=typeof f.readyState&&4>f.readyState){var g=f.getAttribute("src")||f.currentSrc;"undefined"!=typeof f.readyState&&0==f.readyState?f.addEventListener("loadstart",function(h){var k=h.getAttribute("src")||h.currentSrc;window.ezorqs(h,k)}):(g=f.getAttribute("src")||f.currentSrc,window.ezorqs(f,g));f.addEventListener("load",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,
+		k)});f.addEventListener("loadeddata",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)});f.addEventListener("error",function(h){var k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc;window.ezorqe(h,k)})}}}function a(e){for(var c=0;c<document.styleSheets.length;c++)if(document.styleSheets[c].href==e)return!0;return!1}b("img",document.querySelectorAll("img"));b("video",document.querySelectorAll("video"));b("audio",document.querySelectorAll("audio"));
+		(function(e){for(var c=0;c<e.length;c++){var d=e[c];if(("preload"==d.getAttribute("rel")||"stylesheet"==d.getAttribute("rel"))&&null!=d.getAttribute("href")&&a(d.getAttribute("href"))){window.ezorqs(d,d.getAttribute("href"));var f=document.createElement("img");f.onerror=function(g){"undefined"!=typeof g.path&&"undefined"!=typeof g.path[0].currentSrc?window.ezorqe(d,g.path[0].currentSrc):"undefined"!=typeof g.srcElement&&"undefined"!=typeof g.srcElement.href&&window.ezorqe(d,g.srcElement.href)};f.src=
+		d.getAttribute("href")}}})(document.querySelectorAll("link"));Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))})();</script>
+2019-12-23 21:37:22 INFO  RestAPITestinForEmployeeDB:80 - --------- validating content length
+2019-12-23 21:37:22 INFO  RestAPITestinForEmployeeDB:72 - --------- checking content type ------------
+2019-12-23 21:37:22 INFO  RestAPITestinForEmployeeDB:74 - Content Type :--->>>> text/html; charset=UTF-8
+2019-12-23 21:37:22 INFO  RestAPITestinForEmployeeDB:55 - ------- Checking response body --------
+2019-12-23 21:37:22 INFO  RestAPITestinForEmployeeDB:63 - -------- checking status line and status code -------
+2019-12-23 21:37:29 INFO  RestAPITestinForEmployeeDB:59 - Response is :-->>> io.restassured.internal.RestAssuredResponseImpl@5c09d180
+2019-12-23 21:37:29 INFO  RestAPITestinForEmployeeDB:65 - ------ validating response body --------
+2019-12-23 21:37:29 INFO  RestAPITestinForEmployeeDB:73 - Response id, name,age & Salary :--->>> 226692, AgasthyaOZG, 43, 627446, 
+2019-12-23 21:37:29 INFO  RestAPITestinForEmployeeDB:54 - --------- updating employee record ---------------
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:68 - Response body is :--->>> 
+{"name":"AgasthyaNbY","salary":"736050","age":"68"}
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:90 - --------- validating content type ---------------
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:93 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:73 - --------- validating response body ---------------
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:82 - Response name,age,salary & id is -->>>> AgasthyaNbY, 68, 736050, null
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:110 - --------- validating server type --------
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:101 - --------- validating Status line and status code ---------------
+2019-12-23 21:37:36 INFO  RestAPITestinForEmployeeDB:35 - ------------ deleting employee record ----------------
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:39 - Response body is :----> 
+{"success":{"text":"successfully! deleted Records"}}
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:56 - --------- validating content type ---------------
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:59 - Content-Type is :--->> text/html; charset=UTF-8
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:45 - --------- validating response body -------------
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:48 - Delete the employee record successfully
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:76 - --------- validating server type --------
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:67 - --------- validating Status line and status code ---------------
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:114 - ####-------- TC001_GetAllEmployees ends -------#####
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:88 - #####------- TC002_GetSingleEmployeeData ends ------#######
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:82 - ####--------- TC003_PostEmployeeRecord ends -------######
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:117 - #####---------- TC004_PutEmployeeData ends ----------######
+2019-12-23 21:37:43 INFO  RestAPITestinForEmployeeDB:84 - --------- validating response body -------------
+2019-12-23 21:37:44 INFO  RestAPITestinForEmployeeDB:90 - Deleted record of empID - '224208', not exists in Db
+2019-12-23 21:37:44 INFO  RestAPITestinForEmployeeDB:94 - #####------------- TC005_DeleteEmployeeRecord ends ----------######

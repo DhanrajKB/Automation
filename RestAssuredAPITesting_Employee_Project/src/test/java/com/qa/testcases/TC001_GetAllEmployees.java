@@ -2,6 +2,8 @@ package com.qa.testcases;
 
 import java.util.List;
 
+import org.apache.commons.configuration.ConfigurationException;
+import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -34,6 +36,7 @@ public class TC001_GetAllEmployees extends TestBase {
 	public RequestSpecification httpRequest;
 	public Response response;
 	public String empId;
+	public List<String> listOfIds;
 	
 	@BeforeTest
 	public void setup() throws InterruptedException{
@@ -53,8 +56,17 @@ public class TC001_GetAllEmployees extends TestBase {
 		logger.info("----------- Cheking response --------------");
 		System.out.println("Response :--->>> \n" + response.body().asString());
 		Assert.assertTrue(response.body()!=null);
-		List<String> ids = response.body().jsonPath().get("id");
-		System.out.println("Id's :----->>> " + ids);
+		listOfIds = response.body().jsonPath().get("id");
+		System.out.println("Id's :----->>> " + listOfIds);
+		System.out.println("3rd id in the list :--->>> " + listOfIds.get(3));
+	}
+	
+	@Test(dependsOnMethods="getResponseBody")
+	public void updateEmpIDinConfigFile() throws ConfigurationException{
+		//---- using PropertiesConfiguration class to update empid;
+		PropertiesConfiguration propCon = new PropertiesConfiguration(userdir+"//src//main//java/com//qa//config//config.properties");
+		propCon.setProperty("empid",listOfIds.get(3));
+		propCon.save();
 	}
 	
 	@Test

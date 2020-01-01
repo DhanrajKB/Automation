@@ -11,7 +11,7 @@
 			<class name="com.qa.testcases.TC002_GetSingleEmployeeData" />
 			<class name="com.qa.testcases.TC003_PostEmployeeRecord" />
 			<class name="com.qa.testcases.TC004_PutEmployeeData" />
-<!-- 			<class name="com.qa.testcases.TC005_DeleteEmployeeRecord" /> -->
+			<class name="com.qa.testcases.TC005_DeleteEmployeeRecord" />
 
 		</classes>
 	</test> <!-- Test -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25502" started-at="2020-01-01T08:52:00Z" finished-at="2020-01-01T08:52:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25502" started-at="2020-01-01T08:52:00Z" finished-at="2020-01-01T08:52:26Z">
+      <class name="com.qa.testcases.WebDriverTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.WebDriverTests@1ce92674]" name="setup" is-config="true" duration-ms="16092" started-at="2020-01-01T08:52:00Z" finished-at="2020-01-01T08:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="waitForPage()[pri:0, instance:com.qa.testcases.WebDriverTests@1ce92674]" name="waitForPage" duration-ms="50" started-at="2020-01-01T08:52:17Z" finished-at="2020-01-01T08:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForPage -->
+        <test-method status="PASS" signature="searchSuggestions()[pri:0, instance:com.qa.testcases.WebDriverTests@1ce92674]" name="searchSuggestions" duration-ms="4638" started-at="2020-01-01T08:52:17Z" depends-on-methods="com.qa.testcases.WebDriverTests.waitForPage" finished-at="2020-01-01T08:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSuggestions -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.WebDriverTests@1ce92674]" name="teardown" is-config="true" duration-ms="4696" started-at="2020-01-01T08:52:21Z" finished-at="2020-01-01T08:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.WebDriverTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
