@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="2" name="Failed suite [SFDCv02 Test suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="SFDCv02 POM Test suite(failed)">
+    <classes>
+      <class name="com.qa.tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTest -->
+      <class name="com.qa.tests.ContactsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchContact"/>
+          <include name="goToContactsPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.tests.ContactsTest -->
+      <class name="com.qa.tests.AccountTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.tests.AccountTest -->
+      <class name="com.qa.tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- SFDCv02 POM Test suite(failed) -->
+</suite> <!-- Failed suite [SFDCv02 Test suite] -->

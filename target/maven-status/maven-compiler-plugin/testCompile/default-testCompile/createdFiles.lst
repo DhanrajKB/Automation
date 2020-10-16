@@ -1,0 +1,6 @@
+com\qa\tests\LoginTest.class
+com\qa\tests\KillProcess.class
+com\qa\tests\ContactsTest.class
+com\qa\tests\HomePageTest.class
+com\qa\tests\AccountTest.class
+com\qa\tests\ForTest.class
