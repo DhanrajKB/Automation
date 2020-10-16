@@ -15,7 +15,10 @@ import com.qa.pages.ContactsPage;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 import com.qa.utils.TestUtils;
-
+/**
+ * @author dhanraj
+ * @functionality Account Test cases
+ */
 public class AccountTest extends TestBase {
 	
 	LoginPage loginPage;
